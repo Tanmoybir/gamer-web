@@ -11,6 +11,7 @@
 
 .logo {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     width: 50%;
@@ -35,7 +36,7 @@
 .nav-items {
     width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
 }

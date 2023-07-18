@@ -1,0 +1,38 @@
+@media screen and (max-width: 576px) {
+    .nav-contrainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-items {
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+     .follow-us {
+        padding: 10px 5px;
+        
+    }
+}
+
+
+
+/*  */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .nav-contrainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+    .nav-items {
+        width: 100%;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        padding: 18px 16px;
+    }
+    
+.follow-us {
+    background: none;
+    padding: 0;
+}
+    }
