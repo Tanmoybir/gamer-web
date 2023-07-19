@@ -103,15 +103,7 @@
    
 } 
 
-
-/*  */
-
-
-
-
-
-
-/*  */
+/* medium devices */
 @media screen and (min-width: 576px) and (max-width: 1024px) {
     .nav-contrainer {
         flex-direction: column;
@@ -131,6 +123,16 @@
 }
 /* End of Nav section */
 /* Banner section Start */
+.banner-description {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.banner-img {
+    width: 100%;
+    margin-top: 30px;
+}
 /*  */
 .cards-container {
     align-content: center;
@@ -143,10 +145,7 @@
 .games-item:hover {
     border-radius: 20px;
 }
-.strategy {
-    justify-content: center;
-    align-self: center;
-}
+
 /* Footer section Start */
 .footer-content {
     display: flex;
