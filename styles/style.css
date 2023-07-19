@@ -149,7 +149,7 @@
 
 #item {
     color: #FFF;
-    font-size: 45px;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 .footer-content {
@@ -175,6 +175,16 @@
 }
 .footer-icon span {
     padding: 2.5rem;
+}
+.footer-condition {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem; 
+}
+.footer-condition span {
+    padding: 1rem;
 }
 .footer-end {
     color: rgba(255, 255, 255, 0.60);

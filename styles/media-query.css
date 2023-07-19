@@ -20,7 +20,41 @@
     .banner-img {
         width: 100%;
     }
-}
+    /* Footer */
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-content span {
+        padding: 1rem;
+    }
+    .footer-icon {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-icon span {
+        padding: 1.5rem;
+    }
+    .footer-condition {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer-end {   
+        margin: 0 110px;
+    }
+} 
+
+
+/*  */
+
+
+
 
 
 
