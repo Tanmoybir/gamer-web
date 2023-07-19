@@ -29,6 +29,11 @@
         margin-top: 30px;
     }
     /* End of Banner section */
+    /*  */
+    .cards-container {
+        flex-direction: column;
+    }
+    /*  */
     /* play-instantly section Start */
     .play-instantly-container {
         flex-direction: column;
@@ -107,7 +112,7 @@
 
 
 /*  */
-@media screen and (min-width: 576px) and (max-width: 960px) {
+@media screen and (min-width: 576px) and (max-width: 1024px) {
     .nav-contrainer {
         flex-direction: column;
         align-items: center;
@@ -126,10 +131,14 @@
 }
 /* End of Nav section */
 /* Banner section Start */
-
+/*  */
+.cards-container {
+    align-content: center;
+    flex-wrap: wrap;
+}
 /*  */
 .games-container {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 .games-item:hover {
     border-radius: 20px;

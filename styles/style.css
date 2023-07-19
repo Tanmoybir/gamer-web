@@ -71,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .banner-description {
     text-align: center;
@@ -126,6 +127,31 @@
     background: #4EC5F7;
 }
 /* End of Banner section */
+/*  */
+.online-games-container {
+    text-align: center;
+    max-width: 1440px;
+    margin: 20px auto;
+}
+.online-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+#online-des {
+    text-align: center;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cards-container img {
+   border-radius: 16px; 
+}
+/*  */
 /* play-instantly section Start */
 .play-instantly {
    
@@ -133,8 +159,7 @@
 .play-instantly-container {
     display: flex;
     max-width: 1440px;
-    margin: 0 auto;
-    
+    margin: 30px auto;   
 }
 .play-description {
     width: 50%;
@@ -179,7 +204,6 @@
     margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-   
     gap: 25px;
     align-content: center;
 }
