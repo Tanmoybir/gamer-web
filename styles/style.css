@@ -79,9 +79,10 @@
 }
 
 .banner-img {
-    width: 50%;
-    
-    
+    width: 50%;   
+}
+.banner-img img {
+    width: 100%;
 }
 
 .banner-title {
@@ -127,4 +128,58 @@
 }
 #go-rogue {
     background: #4EC5F7;
+}
+
+
+
+/*  */
+/*  */
+.footer-section {
+    background: #0B0223;
+}
+.footer-container {
+    max-width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+#footer-logo {
+     width: 100%;  
+}
+
+#item {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-content {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+.footer-content span {
+  padding: 2.5rem;
+}
+.fa-twitter,.fa-square-instagram,.fa-apple {
+    color: #FFF;
+}
+.fa-facebook {
+    color: #1877f2;
+}
+.footer-icon {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.footer-icon span {
+    padding: 2.5rem;
+}
+.footer-end {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1.5rem;
 }
