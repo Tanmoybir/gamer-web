@@ -141,7 +141,7 @@
 /* End of Nav section */
 /* Banner section Start */
 .banner-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .banner-description {
     width: 100%;
@@ -153,9 +153,7 @@
     width: 100%;
     margin-top: 30px;
 }
-.banner-list {
-    padding-left: 10px;
-}
+
 /* End of Banner section */
 /* Online-games section start */
 .cards-container {
