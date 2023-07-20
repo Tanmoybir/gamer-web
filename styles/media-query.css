@@ -24,7 +24,12 @@
         margin-top: 0;
         margin-bottom: 10px;
     }
-    
+    .banner-title {
+        font-size: 30px;
+    }
+    .banner-goat{
+        font-size: 60px;
+    }
     .banner-img {
         width: 100%;
         margin-top: 30px;
@@ -69,7 +74,7 @@
     /* Game-section start */
     .games-container {
         grid-template-columns: repeat(3,1fr);
-        gap: 10px;
+        gap: 5px;
     }
    
     .games-item:hover {
@@ -135,6 +140,9 @@
 }
 /* End of Nav section */
 /* Banner section Start */
+.banner-container {
+    flex-direction: column;
+}
 .banner-description {
     width: 100%;
     margin-top: 0;
@@ -144,6 +152,9 @@
 .banner-img {
     width: 100%;
     margin-top: 30px;
+}
+.banner-list {
+    padding-left: 10px;
 }
 /* End of Banner section */
 /* Online-games section start */
