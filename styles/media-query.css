@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px) {
+    /* Nav section */
     .nav-contrainer {
         flex-direction: column;
         align-items: center;
@@ -29,11 +30,20 @@
         margin-top: 30px;
     }
     /* End of Banner section */
-    /*  */
+    /* Online-games section start  */
     .cards-container {
-        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        align-content: center;
     }
-    /*  */
+    .box1 ,.box2 , .box3 ,.box4{
+        text-align: center;
+        align-self: center;
+        margin-left: 25px;
+    }
+    #online-des {
+        font-size: 12px; 
+     }
+    /* End of Online-games section */
     /* play-instantly section Start */
     .play-instantly-container {
         flex-direction: column;
@@ -56,9 +66,10 @@
        margin-left: 15px;
     }
     /* End of play-instantly section */
-    /*  */
+    /* Game-section start */
     .games-container {
         grid-template-columns: repeat(3,1fr);
+        gap: 10px;
     }
    
     .games-item:hover {
@@ -71,7 +82,7 @@
     .games-title {
         font-size: 10px;
     }
-    /*  */
+    /* End of Game-section */
     /* Footer section Start*/
     .footer-content {
         display: flex;
@@ -104,7 +115,8 @@
 } 
 
 /* medium devices */
-@media screen and (min-width: 576px) and (max-width: 1024px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    /* Nav section */
     .nav-contrainer {
         flex-direction: column;
         align-items: center;
@@ -133,24 +145,31 @@
     width: 100%;
     margin-top: 30px;
 }
-/*  */
+/* End of Banner section */
+/* Online-games section start */
 .cards-container {
-    align-content: center;
-    flex-wrap: wrap;
+   grid-template-columns: repeat(2,1fr);
+   align-content: center;
+   gap: 5px;
 }
-/*  */
+.box1,.box2,.box3,.box4 {
+    margin-left: 40px;
+}
+/* End of Online-games section */
+/* play-instantly section Start */
 .play-item {
     text-align: center;
     font-size: 12px;
 }
-/*  */
+/* End of play-instantly section */
+/* Game-section start */
 .games-container {
     grid-template-columns: repeat(3,1fr);
 }
 .games-item:hover {
     border-radius: 20px;
 }
-
+/* End of Game-section */
 /* Footer section Start */
 .footer-content {
     display: flex;
