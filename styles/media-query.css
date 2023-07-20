@@ -139,6 +139,11 @@
     flex-wrap: wrap;
 }
 /*  */
+.play-item {
+    text-align: center;
+    font-size: 12px;
+}
+/*  */
 .games-container {
     grid-template-columns: repeat(3,1fr);
 }

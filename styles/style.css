@@ -68,12 +68,13 @@
 .banner-container {
     max-width: 1440px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    display: flex;  
 }
 .banner-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 50%;
     margin-top: 150px;
@@ -88,6 +89,7 @@
 }
 
 .banner-title {
+    display: inline;
     color: #0B0223;
     font-size: 40px;
     font-weight: 600;
@@ -96,7 +98,7 @@
 
 .banner-goat {
     
-    font-size: 60px;
+    font-size: 90px;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -105,12 +107,15 @@
 }
 
 .banner-list {
-    text-align: center;
-    list-style: none;
+    text-align: left;
+    list-style: square;
     font-size: 20px;
     font-weight: 500;
 }
-
+.banner-button {
+    display: flex;
+    gap: 5PX;
+}
 .btn {
     color: #FFF;
     font-size: 20px;
@@ -138,6 +143,9 @@
     text-align: center;
     font-size: 48px;
     font-weight: 700;
+}
+#funny {
+    font-size: 40px;
 }
 #online-des {
     text-align: center;
